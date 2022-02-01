@@ -1,0 +1,48 @@
+.about-product-main{
+    background-color: #f3f3f3;
+    padding: 2rem 0;
+  }
+  .about-product{
+    text-align: start;
+    width: 87%;
+    line-height: 2rem;
+    margin: auto;
+  }
+  .about-product ul li{
+    list-style: none;
+    font-size: 0.9rem;
+    font-weight: 350;
+  }
+  .custome_review{
+    width: 87%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  .custome_review_content{
+    text-align: left;
+    line-height: 2rem;
+    
+  }
+  .custome_review_content h3{
+    font-size: 1.5rem;
+    font-weight: 450;
+  }
+  .custome_review_content h4{
+    font-size: 0.9rem;
+    font-weight: 300;
+    
+  }
+  .riview_button{
+    display: flex;
+    align-items: center;
+  }
+  .custome_review button{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0 1rem;
+    height: 80%;
+    
+  }

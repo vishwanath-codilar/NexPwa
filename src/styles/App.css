@@ -1,0 +1,51 @@
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+.App {
+  text-align: center;
+}
+
+
+
+.breadcrumbs{
+  width: 100%;
+}
+.breadcrumbs ul{
+  width: 87%;
+  margin: auto;
+  display: flex;
+  column-gap: 1rem;
+  padding: 0;
+}
+.breadcrumbs ul li{
+  list-style: none;
+  font-size: 0.7rem;
+  font-weight: 400;
+  
+}
+.breadcrumbs ul li:last-child{
+  color:#adabab;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+.breadcrumbs ul li:not(:last-child):after{
+  content: "";
+  position: relative;
+  display: inline-block;
+  height: 4px;
+  width: 4px;
+  -webkit-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+  margin-left: 16px;
+  border-color: currentcolor;
+  border-style: solid;
+  border-width: 0 0 1px 1px;
+  top: -1px;
+}
+
+

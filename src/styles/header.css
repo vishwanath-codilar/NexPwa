@@ -1,0 +1,108 @@
+
+.header-topbar{
+    background-color: #f3f3f3;
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    font-weight: 450;
+  
+  }
+  nav .nav-bar{
+    display: flex;
+    width: 87%;
+    margin: 1.5rem  auto;
+    align-items: center ;
+  }
+  .nav-bar .search-bar{
+    width: 30%;
+    background-color: #f3f3f3;
+    padding: 0.2rem;
+   
+  }
+  .nav-bar .search-bar-inner{
+    display: flex;
+    align-items: center;
+    padding-left: 1rem;
+  }
+  .nav-bar .search-bar img{
+    width: 5%;
+    height: 1rem;
+    
+  }
+  .nav-bar .search-bar input{
+    width: 80%;
+    height: 2rem;
+    border: none;
+    background-color: #f3f3f3;
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    outline: none;
+  }
+  
+  .nav-bar .logo{
+    width: 43%;
+  }
+  .logo img{
+    width: 35%;
+    margin: auto;
+  }
+  .nav-bar .buttons{
+    width: 27%;
+    display: flex;
+    column-gap: 1rem;
+    align-items: center;
+  }
+  .nav-bar .buttons .lang-selector{
+    width: 40%;
+    
+    border: 1px solid #f3f3f3;
+    padding: 0.3rem ;
+   
+  }
+  
+  .nav-bar .buttons .lang-selector select{
+    height: 2rem ;
+    width: 80%;
+    border: none;
+    background-color: white;
+    outline: none;
+  }
+  .nav-bar .buttons .currency-selector{
+    width: 25%;
+    border: 1px solid #f3f3f3;
+    padding: 0.3rem ;
+  }
+  .nav-bar .buttons .currency-selector select{
+    height: 2rem ;
+    width: 80%;
+    border: none;
+    background-color: white;
+    outline: none;
+  }
+  .nav-bar .buttons .icons{
+    width: 25%;
+    display: flex;
+    column-gap: 1rem;
+  }
+  .menu-container{
+    width: 100%;
+  }
+  .menu-container .menu-list{
+    width: 87%;
+    display: flex;
+    margin: 1rem auto;
+    justify-content: center;
+    column-gap: 3.5rem;
+    
+  }
+  .menu-container .menu-list li{
+    list-style: none;
+  }
+  .menu-container .menu-list li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+  }
+  hr{
+    background-color: #f3f3f3;
+    
+  }
